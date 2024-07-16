@@ -1,0 +1,464 @@
+h1 {
+    text-align: center;
+    color: #B8860B;
+    font-family: 'Verdana';
+
+}
+
+body {
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+legend {
+    text-align: center;
+    color: #B8860B;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+form {
+    margin: 12px;
+}
+
+table {
+
+    margin: 0px auto;
+}
+
+td {
+    padding: 6px;
+}
+
+#Principal {
+    width: '70%';
+    margin: 0px auto;
+}
+
+[type='text'] {
+    margin: 5px;
+}
+
+[type="email"] {
+    margin: 5px;
+}
+
+[type="tel"] {
+    margin: 5px;
+}
+
+[type="checkbox"] {
+    margin: 5px;
+
+}
+
+#Botones {
+    text-align: center;
+}
+
+.Botoncitos {
+    font-size: 5.em;
+    text-transform: capitalize;
+    background-color: rgb(192, 192, 192);
+    color: black;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+/* Ipad air vertical*/
+@media only screen and (min-width: 820px) and (max-width: 1000px) {
+
+
+    h1 {
+        text-align: center;
+        color: #B8860B;
+        font-family: 'Verdana';
+
+    }
+
+
+    body {
+
+
+        background-color: aliceblue;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    legend {
+        text-align: center;
+        color: #B8860B;
+        font-family: Verdana;
+        font-weight: bold;
+    }
+
+    form {
+        margin: 15.8px;
+
+
+    }
+
+
+    table {
+
+        margin: 5px;
+
+    }
+
+    td {
+        padding: 1.5px;
+    }
+
+    .Principal {
+        width: '10%';
+        margin: 5px auto;
+    }
+
+    [type='text'] {
+        margin: 8px;
+        padding: 8px;
+        height: 5px;
+    }
+
+    [type="email"] {
+        margin: 5px;
+        padding: 7px;
+    }
+
+    [type="tel"] {
+        margin: 10px;
+    }
+
+    .Tabla2 {
+        padding-left: 190px;
+    }
+
+    .Tabla3 {
+        padding-left: 190px;
+    }
+
+
+
+    [type="checkbox"] {
+        margin: 7px;
+        font-size: 10px;
+
+    }
+
+
+    #Botones {
+        text-align: center;
+    }
+
+    .Botoncitos {
+
+        font-size: 8.em;
+        text-transform: capitalize;
+        background-color: rgb(192, 192, 192);
+        color: black;
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+
+
+
+
+    }
+
+}
+
+/*iPad Air horizontal*/
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    h1 {
+        text-align: center;
+        color: #B8860B;
+        font-family: 'Verdana';
+
+    }
+
+
+    body {
+
+        background-color: aliceblue;
+
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    legend {
+        text-align: center;
+        color: #B8860B;
+        font-family: Verdana;
+        font-weight: bold;
+    }
+
+    form {
+        margin: 4px;
+    }
+
+
+    table {
+
+
+        margin: 0px auto;
+    }
+
+    td {
+        padding: 6px;
+    }
+
+    .Principal {
+        width: '30%';
+        margin: 4.5px auto;
+    }
+
+    [type='text'] {
+        margin: 10px;
+        padding: 5.5px;
+    }
+
+    [type="email"] {
+        margin: 1px;
+        padding: 4px;
+    }
+
+    [type="tel"] {
+        margin: 1px;
+        padding: 3.5px;
+
+
+    }
+
+    [type='text'] {
+        margin: 2px;
+        padding: 1.5px;
+    }
+
+
+    [type="checkbox"] {
+        margin: 7px;
+        font-size: 10px;
+
+    }
+
+
+    #Botones {
+        text-align: center;
+    }
+
+    .Botoncitos {
+
+        font-size: 8.em;
+        text-transform: capitalize;
+        background-color: rgb(192, 192, 192);
+        color: black;
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+
+
+
+
+    }
+
+}
+
+/*Móvil Vertical*/
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    h1 {
+        text-align: center;
+        color: #B8860B;
+        font-family: 'Verdana';
+
+
+    }
+
+    body {
+
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    legend {
+        text-align: center;
+        color: #B8860B;
+        font-family: Verdana;
+        font-weight: bold;
+    }
+
+    form {
+
+        margin: 1.1px;
+    }
+
+
+    table {
+
+        margin: 10px;
+
+    }
+
+    td {
+        padding: 3px;
+    }
+
+    #Principal {
+        width: '30%';
+        margin: 10px;
+    }
+
+
+    [type='text'] {
+        margin: 2.5px;
+    }
+
+    [type="email"] {
+        margin: 2.5px;
+    }
+
+    [type="tel"] {
+        margin: 5px;
+    }
+
+    [type="text"] {
+        margin: 4px;
+        padding: 3.5px;
+
+    }
+
+    [type="checkbox"] {
+        padding: 1.5px;
+
+    }
+
+    .Tabla2 {
+        max-width: 650px;
+        min-width: 650px;
+    }
+
+    .Tabla2 {
+        padding-left: 190px;
+    }
+
+    .Tabla3 {
+        padding-left: 190px;
+    }
+
+
+
+    #Botones {
+        text-align: center;
+    }
+
+    .Botoncitos {
+        font-size: 2.5.em;
+        text-transform: capitalize;
+        background-color: rgb(192, 192, 192);
+        color: black;
+        width: 40px;
+        height: 15px;
+        margin: 2.5px;
+        font-weight: bold;
+
+    }
+
+}
+
+/*Móvil Horizontal*/
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        color: #B8860B;
+        font-family: 'Verdana';
+
+
+    }
+
+    body {
+
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    legend {
+        text-align: center;
+        color: #B8860B;
+        font-family: Verdana;
+        font-weight: bold;
+    }
+
+    form {
+
+        margin: 10px;
+    }
+
+
+    table {
+
+        margin: 100px;
+        padding: 0px;
+    }
+
+    td {
+        padding: 3px;
+    }
+
+    #Principal {
+        width: '35%';
+        margin: 5px;
+    }
+
+    [type='text'] {
+        margin: 2.5px;
+    }
+
+    [type="email"] {
+        margin: 4px;
+        padding: 2.5px;
+    }
+
+    [type="tel"] {
+        margin: 5px;
+    }
+
+    [type="text"] {
+
+        margin: 10px;
+        padding: 5px;
+
+
+    }
+
+    .Tabla2 {
+        max-width: 10px;
+        min-width: 1px;
+    }
+
+    [type="checkbox"] {
+        padding: 5px;
+        align-items: center;
+    }
+
+
+
+
+    #Botones {
+        text-align: center;
+    }
+
+    .Botoncitos {
+        font-size: 1.5em;
+        text-transform: capitalize;
+        background-color: rgb(192, 192, 192);
+        color: black;
+        width: 100px;
+        height: 40px;
+        margin: 7px;
+        font-weight: bold;
+
+    }
+
+}

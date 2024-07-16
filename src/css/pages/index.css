@@ -1,0 +1,73 @@
+/* Main */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  display: flex;
+  font-size: 20px;
+  text-align: justify;
+  flex-grow: 1;
+}
+
+.main__header__title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  color: #579963;
+}
+
+.main > * {
+  padding: 0 15px;
+}
+
+.main__article > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px;
+}
+
+.reviews {
+  margin-left: 30px;
+  color: rgb(93, 90, 90)
+}
+
+.reviews__list > * {
+ padding: 15px 0;
+}
+
+.review__comment {
+  font-style: italic;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .main > * {
+    padding: 15px;
+  }
+
+  .main {
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .reviews {
+    margin-left: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 5px;
+    font-size: 16px;
+  }
+}

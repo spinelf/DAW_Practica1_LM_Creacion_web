@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trabajo de duendes</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/core/reset.css" />
+    <link rel="stylesheet" href="../css/layout/header.css" />
+    <link rel="stylesheet" href="../css/layout/menu.css" />
+    <link rel="stylesheet" href="../css/layout/footer.css" />
+    <link rel="stylesheet" href="../css/pages/contacto.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="icon" href="../images/favicon.png" />
+</head>
+
+<body>
+    <div class="page">
+        <!--  Header  -->
+        <header class="page__header" id="top">
+            <a href="./index.html" title="Inicio">
+                <img class="page__header__image" src="../images/trabajoDeDuendesLogo.png"
+                    alt="Logo de Trabajo de duendes">
+            </a>
+        </header>
+        <!-- End Header -->
+        <!-- Menu -->
+        <nav class="page__menu">
+            <div class="page__menu__logo">
+                <h1>Trabajo de duendes</h1>
+            </div>
+            <div class="page__menu__openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="page__menu__list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="./misProyectos.html">Mis Proyectos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <div class="page__menu__closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+        <!-- End Menu -->
+        <main>
+            <h1> Formulario de contacto </h1>
+            <form action="procesa.jsp" method="post" class="js-form">
+                <fieldset>
+                    <legend> Datos del Cliente </legend>
+                    <table>
+                        <tr>
+                            <td>DNI:</td>
+                            <td colspan="5"><input name="txtnif" type="text" placeholder="32658545D" size="9"
+                                    maxlength="9" autofocus required /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="nombre">Nombre: </label></td>
+                            <td colspan="5"><input name="txtnombre" type="text" placeholder="Fernando" size="50"
+                                    maxlength="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>direcci&oacute;n</td>
+                            <td colspan="5"><input name="txtdireccion" type="text" placeholder="Calle 1/ Nº 3/ A Coruña"
+                                    size="80" maxlength="100" /></td>
+                        </tr>
+                        <tr>
+                            <td>fecha nac.</td>
+                            <td><input name="txtfecha" type="text" placeholder="dd/mm/aaaa" size="15" maxlength="10" />
+                            </td>
+                            <td>tel&eacute;fono</td>
+                            <td colspan="2">
+                                <input name="txttelefono" type="tel" placeholder="666889974" size="9" maxlength="9"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>localidad:</td>
+                            <td><input name="txtlocalidad" type="text" placeholder="A Coruña" size="20"
+                                    maxlength="20" /></td>
+                            <td>provincia:</td>
+                            <td><input name="txtprovincia" type="text" placeholder="A Coruña" size="25"
+                                    maxlength="25" /></td>
+                            <td>cp:</td>
+                            <td><input name="txtcp" type="text" placeholder="15557" size="8" maxlength="5" /></td>
+                        </tr>
+                        <tr>
+                            <td>email:</td>
+                            <td colspan="5"><input name="txtemail" type="email" placeholder="tuemail@email.com"
+                                    size="50" maxlength="50" id="email" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend> Información del producto </legend>
+                    <table>
+                        <tr>
+                            <td>Artículo</td>
+                            <td><select name="Lista Productos">
+                                    <option value="0">Duende Z</option>
+                                    <option value="1"> Duende B </option>
+                                    <option value="2"> Mushu </option>
+                                </select></td>
+                            <td>cantidad</td>
+                            <td><input type="number" min=1 max=10 step=1></td>
+                        </tr>
+                        <tr>
+                            <td> Observaciones </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><textarea name="Observaciones" placeholder="Dinos que opinas de nosotros"
+                                    rows="7" cols="40"></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Forma de pago</legend>
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td>contrarembolso</td>
+                            <td><input name="rbtnforma" type="radio" value="0" checked="checked" /></td>
+                            <td>con tarjeta</td>
+                            <td><input name="rbtnforma" type="radio" value="1" /></td>
+                            <td>Criptomoneda</td>
+                            <td><input name="rbtnforma" type="radio" value=2></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>n&uacute;mero tarjeta</td>
+                            <td colspan="4"><input name="txtnumero" type="text" size="20" maxlength="30" /></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <input type="checkbox" value="recibirmail"> Deseo recibir Emails mensuales <br>
+                <input type="checkbox" value="suscribirse"> Deseo una suscribirme
+                <table width='100%'>
+                    <tr>
+                        <td>
+                            <input class="botones js-submit" type="submit" value="enviar" />
+                            <input class="botones js-reset" type="reset" value="limpiar" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+        <!-- Footer -->
+        <footer id="footer" class="page__footer">
+            <nav>
+                Siguenos:
+                <ul class="page__footer__social">
+                    <li>
+                        <a href="https://www.facebook.com/trabajodeduendes2/" target="blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/trabajodeduendes/?hl=en" target="blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <img class="page__footer__image" src="../images/trabajoDeDuendesLogo.png" alt="Logo de Trabajo de duendes">
+        </footer>
+        <!-- End Footer -->
+        <script src="../js/app.js"></script>
+    </div>
+</body>
+
+</html>
